@@ -124,7 +124,7 @@ ul {
         text-align: center;
     }
     .section {
-        margin: 94px 0;
+        padding: 94px 0;
         
     }
     .main-title {
@@ -172,6 +172,9 @@ ul {
         clip: rect(0 0 0 0);
         clip-path: inset(50%);
         margin: -1px;
+    }
+    .features-section {
+        padding-bottom: 0;
     }
     .features {
         display: flex;
