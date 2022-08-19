@@ -257,7 +257,8 @@ ul {
     /* Footer */
     .address {
         font-style: normal;
-        
+        padding-top: 60px;
+        padding-bottom: 60px;
 
     }
     .address-logo {
@@ -342,24 +343,11 @@ ul {
     .works {
         display: flex;
         flex-wrap: wrap;
-    }
-    .works-item {
-        width: calc((100% - 60px) / 3);
-        margin-right: 30px;
-        margin-bottom: 30px;
-    }
-    .works-item:nth-child(3n) {
-        
-        margin-right: 0;
-    }
-    .works-item:nth-last-child(-n+3) {
-        margin-bottom: 0;
+        gap: 30px;
     }
     .works-link {
         text-decoration: none;
-    }
-    .works-img {
-        margin-bottom: 20px;
+        
     }
     .works-title {
         color: var(--primary-text-color);
@@ -370,6 +358,9 @@ ul {
         letter-spacing: 0.03em;
 
         margin-bottom: 4px;
+    }
+    .works-img {
+        display: block;
     }
     .works-img:focus,
     .works-img:hover,
@@ -386,4 +377,10 @@ ul {
         line-height: 1.88;
         letter-spacing: 0.03em;
     }
+    .works-border {
+        display: block;
+        border: 1px solid #EEEEEE;
+        padding: 20px;
+        
+    }    
     
